@@ -9,7 +9,11 @@
 </head>
 <body>
 <?php
-echo "Hello world";
+// single line comment
+#single line comment
+/*
+ multiline comment
+ */
 ?>
 </body>
 </html>
