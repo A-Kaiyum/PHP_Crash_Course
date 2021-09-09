@@ -9,10 +9,36 @@
 </head>
 <body>
 <?php
-// Create Array
-$fruits = ["Banana", "Apple", "Orange"];
-// Print array
-var_dump($fruits);
+// Conditional statement
+$age = 0;
+$salary = 30000;
+$name = 'Jhon';
+// ternary operator
+echo $age < 30 ? 'Young': 'Old';
+//short ternary
+
+$myAge = $age ?: 30;
+var_dump($myAge);
+// Null coalescing operator
+ $myName = isset($name) ? $name : 'jak';
+ var_dump($myName);
+ $myName = $name ?? 'Jak';
+ var_dump($myName);
+ // switch operator
+$authorRole = 'Admin';
+switch ($authorRole){
+    case 'Admin':
+        echo "I am Admin";
+        break;
+    case 'Editor':
+        echo "Editor";
+        break;
+    case 'Author':
+        echo "Author";
+        break;
+    default:
+        echo "Invalid Credintial";
+}
 ?>
 </body>
 </html>
