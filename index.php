@@ -9,14 +9,10 @@
 </head>
 <body>
 <?php
-// Create simple string
-$name = 'Zara';
-$string = 'Hello I am $name. I am 25 years old';
-$string2 = " Hello I am $name. I am 25 years old";
-echo $string.'<br>';
-echo $string2.'<br>';
-// String concatenation
-echo 'Hello'.' world'.' and PHP';
+// Create Array
+$fruits = ["Banana", "Apple", "Orange"];
+// Print array
+var_dump($fruits);
 ?>
 </body>
 </html>
